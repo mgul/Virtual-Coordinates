@@ -17,11 +17,11 @@ public class VCEnvironmentHelper implements Serializable{
 	private static final long serialVersionUID = -8484536725849716492L;
 
 	public static Environment generateVCEnvironment() {
-		Environment env = new Environment();
-		env.setFullArea(new Rectangle2D.Double(0, 0, 1500, 1000));
-		env.setInterestArea(new Rectangle2D.Double(200, 200, 1000, 500));
-		env.setSensorDistributionArea(new Rectangle2D.Double(200, 200, 1000,
+		Environment envr = new Environment();
+		envr.setFullArea(new Rectangle2D.Double(0, 0, 1500, 1000));
+		envr.setInterestArea(new Rectangle2D.Double(200, 200, 1000, 500));
+		envr.setSensorDistributionArea(new Rectangle2D.Double(200, 200, 1000,
 				500));
-		return env;
+		return envr;
 	}
 }
